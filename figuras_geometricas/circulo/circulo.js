@@ -27,3 +27,5 @@ function areaCirculo(radio) {
 }
 
 console.groupEnd();
+
+
