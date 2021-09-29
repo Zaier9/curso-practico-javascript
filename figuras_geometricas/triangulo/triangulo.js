@@ -33,3 +33,25 @@ function calcularAreaTriangulo() {
     const area = areaTriangulo(value1, value2, value3);
     alert("El perimetro del triangulo es: " + area);
 }
+
+function alturaTriangulo(ladoA, ladoB, ladoC) {
+    //...
+}
+
+function alturaTrianguloIsoceles() {
+    if (ladoA != ladoB) {
+        console.log("Los lados a y b no son iguales");
+    } else{
+        let trianguloPequenoLadoA; //PENDIENTE
+        const trianguloPequenoLadoB = trianguloGrandeLadoBase / 2;
+        const trianguloPequenoLadoBase = trianguloGrandeLadoA;
+
+        const trianguloPequenoLadoBCuadrado = trianguloPequenoLadoB * trianguloPequenoLadoB;
+        const trianguloPequenoLadoBaseCuadrado = trianguloPequenoLadoBase * trianguloPequenoLadoBase;
+
+        const trianguloPequenoLadoA = Math.sqrt(trianguloPequenoLadoBaseCuadrado - trianguloPequenoLadoBCuadrado);
+
+        const trianguloGrandeAltura = trianguloPequenoLadoA;
+        return trianguloGrandeAltura;
+    }
+}
