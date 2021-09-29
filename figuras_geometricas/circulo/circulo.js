@@ -28,4 +28,17 @@ function areaCirculo(radio) {
 
 console.groupEnd();
 
+// Aqui empezamos a interactuar con el HTML
+function calcularPerimetroCirculo() {
+    const input = document.getElementById("InputCirculo");
+    const value = input.value;
+    const perimetro = perimetroCirculo(value);
+    alert("El perimetro del circulo es: " + perimetro);
+}
 
+function calcularAreaCirculo() {
+    const input = document.getElementById("InputCirculo");
+    const value = input.value;
+    const area = areaCirculo(value);
+    alert("El perimetro del circulo es: " + area);
+}
