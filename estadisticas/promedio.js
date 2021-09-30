@@ -15,7 +15,7 @@
 
 function calcularMediaArimetica(lista) {
 //     let sumaLista = 0;
-// for (let i=0; i<lista.length; i++) {
+//     for (let i=0; i<lista.length; i++) {
 //     sumaLista = sumaLista + lista[i];
 // }
 
