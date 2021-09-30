@@ -30,3 +30,5 @@ function onClickButtonPriceDiscount() {
     const ResultPrice = document.getElementById("ResultPrice");
     ResultPrice.innerText = "El precio con descuento es: $" + precioConDescuento;
 }
+
+
